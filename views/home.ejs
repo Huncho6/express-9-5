@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              oswald: ["Oswald", "sans-serif"],
+            },
+            colors: {
+              primarycolor: "#9FADAD",
+              secondarycolor: "#000000",
+              tertiarycolor: "#fffff",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-oswald bg-primarycolor">
+    <header>
+      <nav class="flex justify-evenly">
+        <a href="">HOME</a>
+        <a href="services.ejs">SERVICES</a>
+        <a href="contact.ejs">CONTACTS</a>
+      </nav>
+    </header>
+    <div class="mt-5">
+      <h1 class="flex font-bold text-3xl justify-center">WELCOME</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium
+      nisi illo laborum voluptates eaque sit similique temporibus minima
+      adipisci? Corrupti rem at atque quaerat sapiente quis. Nulla, deleniti a.
+      <div class="mt-5">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTdyJp9xux0XP1k3bxLKLjO7_r3YhE1-FEtfsDjDlqqRtLYTbG6jf_N7UmgrlKKDMb5BTcVlAqTKpFtUFQ"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
